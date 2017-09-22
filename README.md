@@ -2,6 +2,8 @@
 The data used in this project are listed below:
 * JP Morgan (JPM) historical data collected from Yahoo Finance
 
+https://github.com/getwarped/s2i-minimal-notebook
+
 The following libraries are used in this project:
 * Machine learning/Data Processing
 	* sklearn
