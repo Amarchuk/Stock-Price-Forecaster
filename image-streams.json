@@ -2,7 +2,7 @@
     "kind": "ImageStream",
     "apiVersion": "v1",
     "metadata": {
-        "name": "s2i-minimal-notebook",
+        "name": "Trading-Bot",
         "annotations": {
             "openshift.io/display-name": "Jupyter Notebook"
         }
@@ -15,13 +15,13 @@
                     "openshift.io/display-name": "Jupyter Notebook (latest)",
                     "description": "Build and deploy a custom Jupyter Notebook image with pre-bundled notebooks, data files and Python packages.",
                     "iconClass": "icon-python",
-                    "sampleRepo": "https://github.com/getwarped/sample-notebooks.git",
+                    "sampleRepo": "https://github.com/Amarchuk/Stock-Price-Forecaster.git",
                     "tags": "builder,python",
                     "version": "latest"
                 },
                 "from": {
                     "kind": "DockerImage",
-                    "name": "getwarped/s2i-minimal-notebook:latest"
+                    "name": "Amarchuk/Stock-Price-Forecaster"
                 }
             }
         ]
